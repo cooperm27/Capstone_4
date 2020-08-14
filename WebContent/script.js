@@ -89,8 +89,10 @@ function getReciept() {
 
 function clearOrder() {
 	order.length = 0;
-	var myList = document.getElementById("recieptList");
-	myList.innerHTML = "";
+	var lis = document.querySelectorAll("#recieptList li");
+	for(var i=0; li=lis[i]; i++) {
+    li.parentNode.removeChild(li);
+}
 }
 
 let totalButtonEl = document.getElementById("totalButton");
