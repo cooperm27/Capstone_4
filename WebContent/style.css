@@ -1,0 +1,40 @@
+.listName{
+	padding-left: 50px;
+	display: inline-block;
+	font-size: 30px;
+}
+.listPrice{
+	display: inline-block;
+	float: right;
+	width: 60%;
+	font-size: 30px;
+}
+
+.add{
+	height: 40px;
+	width: 60px;
+}
+
+#totalButton{
+	height: 40px;
+	width: 100px;
+}
+
+}
+.reciept {
+	border: 2px solid black;
+	padding: 4px 9px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px gray; 
+}
+
+.recieptTable {
+	position: absolute;
+	right: 125px;
+	Top: 50%;
+}
+.recieptTableTitle {
+	position: absolute;
+	right: 150px;
+	top: 40%;
+}
